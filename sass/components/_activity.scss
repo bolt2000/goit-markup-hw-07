@@ -1,11 +1,10 @@
 
-/* ============================================= Activity ============================================= */
+/* == Activity == */
 
 .activity {
     padding-bottom: 94px;
   }
-  
-  
+
   .activity-title {
     color: var(--brand-black);
     font-weight: 700;
@@ -15,7 +14,7 @@
     margin-bottom: 50px;
     text-align: center;
   }
-  
+
   .activity-list__text {
     font-weight: 700;
     font-size: 14px;
@@ -25,11 +24,11 @@
     text-transform: uppercase;
     color: var(--brand-white);
   }
-  
+
   .activity-list__element {
     position: relative;
   }
-  
+
   .activity-list__element p {
     justify-content: center;
     align-items: center;
@@ -41,19 +40,14 @@
     bottom: 0;
     right: 0;
   }
-  
 
-  
 .activity-list,
 .team-list {
   display: flex;
 }
-
 
 .activity-list__item:not(:last-child),
 .team-list__item:not(:last-child),
 .clients-list .item:not(:last-child) {
   margin-right: 30px;
 }
-
-

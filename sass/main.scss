@@ -1,16 +1,11 @@
+// base //
+@import './base/reset';
+@import './base/container';
+
 // utils //
 @import './utils/vars';
 @import './utils/visually-hidden';
-// @import './utils/placeholders';
-
-// base styles //
-@import './base/reset';
-// @import './base/js-selectors';
-// @import './base/animations';
-@import './base/container';
-// @import './base/card-set';
-
-
+@import './utils/placeholders';
 
 // components //
 @import './components/logo';
@@ -22,17 +17,12 @@
 @import './components/features';
 @import './components/footer';
 @import './components/modal';
-@import './components/social-link';
 @import './components/team';
 @import './components/portfolio';
 
-
-
-
-// components/
-@import './components/buttons/button';
+// components - buttons/
+@import './components/buttons/button-hero';
 @import './components/buttons/button-footer';
 @import './components/buttons/button-modal';
 @import './components/buttons/button-portfolio';
 
-@import './utils/none';

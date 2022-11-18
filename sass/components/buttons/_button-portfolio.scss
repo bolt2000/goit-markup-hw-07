@@ -15,9 +15,9 @@
     border: none;
     padding: 6px 25px 6px 25px;
     text-align: center;
-    transition-property: background-color, color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    // transition-property: background-color, color, box-shadow;
+    // transition-duration: 250ms;
+    @extend %transition;
   }
   
   .button-menu:focus,

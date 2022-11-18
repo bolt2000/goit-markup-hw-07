@@ -6,6 +6,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    @extend %nodecor;
   }
   /* Two Color Logo */
   .logo-color {

@@ -27,6 +27,13 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     position: relative;
+    @extend %nodecor;
+    @extend %transition;
+
+    &:hover,
+    &:focus {
+      color: var(--brand-blue);
+    }
   }
   
   .nav-list__link::after {
@@ -44,4 +51,4 @@
   .nav-list__link.current::after {
     opacity: 1;
   }
-  
+    

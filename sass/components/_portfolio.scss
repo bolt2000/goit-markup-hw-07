@@ -42,6 +42,7 @@
 
 .set-box__img {
   display: block;
+  @extend %nodecor;
 }
 
 .set-box__img:hover,

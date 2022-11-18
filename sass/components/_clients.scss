@@ -23,9 +23,19 @@
     width: 170px;
     justify-content: center;
     fill: var(--color-border-grey);
-    transition-property: border fill;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    // transition-property: border fill;
+    // transition-duration: 250ms;
+    // transition-timing-function: var(--timing-function);
+    @extend %transition;
+
+    &:hover,
+    &:focus,
+    .clients-list__icon:focus {
+      border: 1px solid var(--brand-blue);
+      outline: none;
+      fill: var(--brand-blue);
+    }
+    
   }
   
   .clients-list__item:not(:last-child) {
@@ -41,15 +51,3 @@
   .clients-list__icon:hover {
     fill: var(--brand-blue);
   }
-  
-  .clients-list__link:hover {
-    border: 1px solid var(--brand-blue);
-  }
-  
-  .clients-list__icon:focus,
-  .clients-list__link:focus {
-    outline: none;
-    fill: var(--brand-blue);
-    border: 1px solid var(--brand-blue);
-  }
-  

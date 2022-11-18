@@ -66,18 +66,20 @@
     background-color: var(--brand-white);
     fill: var(--color-border-grey);
     transition-property: background-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    // transition-duration: 250ms;
+    // transition-timing-function: var(--timing-function);
+    @extend %transition;
+  
+    &:focus,
+    &:hover {
+    outline: none;
+    fill: var(--brand-white);
+    background-color: var(--button-main-color);}
   }
   
   .team-social__item:not(:last-child) {
     margin-right: 10px;
   }
   
-  .team-social__link:focus,
-  .team-social__link:hover {
-    outline: none;
-    fill: var(--brand-white);
-    background-color: var(--button-main-color);
-  }
+
   

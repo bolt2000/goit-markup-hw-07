@@ -10,18 +10,21 @@
     font-style: normal;
     color: var(--brand-footer);
     margin-bottom: 9px;
-  }
+    @extend %nodecor;
+    @extend %transition;
+
+
+    &:hover, &:focus {
+      color: var(--brand-blue);}
+    }
   
   .footer-contacts__address {
     color: var(--brand-white);
     font-style: normal;
-  }
-  
-  .footer-contacts__address:hover,
-  .footer-contacts__address:focus,
-  .footer-contacts__link:hover,
-  .footer-contacts__link:focus {
-    color: var(--brand-blue);
+    @extend %nodecor;
+    @extend %transition;
+
+    &:hover, &:focus {color: var(--brand-blue);}
   }
   
   .logo-footer {
@@ -80,9 +83,10 @@
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: var(--timing-function);
+    // transition-property: background-color;
+    // transition-duration: 250ms;
+    // transition-timing-function: var(--timing-function);
+    @extend %transition;
   }
   
   .footer-soc-list__item:not(:last-child) {

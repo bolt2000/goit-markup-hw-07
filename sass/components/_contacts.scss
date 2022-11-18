@@ -12,6 +12,12 @@
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
+
+    &:hover,
+    &:focus {
+      color: var(--brand-blue);
+      // fill: var(--brand-blue); 
+    }
   }
   
   .link,
@@ -21,6 +27,8 @@
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    @extend %nodecor;
+    @extend %transition;
   }
   
   
