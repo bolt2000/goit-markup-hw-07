@@ -1,0 +1,38 @@
+// utils //
+@import './utils/vars';
+@import './utils/visually-hidden';
+// @import './utils/placeholders';
+
+// base styles //
+@import './base/reset';
+// @import './base/js-selectors';
+// @import './base/animations';
+@import './base/container';
+// @import './base/card-set';
+
+
+
+// components //
+@import './components/logo';
+@import './components/header';
+@import './components/contacts';
+@import './components/hero';
+@import './components/activity';
+@import './components/clients';
+@import './components/features';
+@import './components/footer';
+@import './components/modal';
+@import './components/social-link';
+@import './components/team';
+@import './components/portfolio';
+
+
+
+
+// components/
+@import './components/buttons/button';
+@import './components/buttons/button-footer';
+@import './components/buttons/button-modal';
+@import './components/buttons/button-portfolio';
+
+@import './utils/none';

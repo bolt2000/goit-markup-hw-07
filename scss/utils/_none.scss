@@ -1,0 +1,37 @@
+
+  // .contact-address {
+  //   font-weight: 400;
+  //   font-size: 14px;
+  //   line-height: calc(24 / 14);
+  //   letter-spacing: 0.03em;
+  //   color: #ffffff;
+  //   width: 231px;
+  // }
+  
+  .footer-contacts__link,
+  .nav-list__link,
+  .contacts__link,
+  .footer-contacts__address {
+    transition: color 250ms var(--timing-function);
+  }
+  
+  .nav-list__link,
+  .contacts__link,
+  .logo,
+  .footer-contacts__address,
+  .footer-contacts__link,
+  .set-box__img {
+    text-decoration: none;
+  }
+  
+  /* Hover + Focus */
+  .header-icon:hover,
+  .contacts__link:hover,
+  .contacts__link:focus,
+  .nav-list__link:hover,
+  .nav-list__link:focus {
+    color: var(--brand-blue);
+    fill: var(--brand-blue);
+  }
+  
+  /* ============================================= */
