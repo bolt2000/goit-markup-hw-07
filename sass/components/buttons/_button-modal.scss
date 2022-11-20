@@ -17,7 +17,7 @@
     fill: var(--brand-logo);
     // transition: fill 250ms var(--timing-function);
     @extend %transition;
-    
+    cursor: pointer;
   }
   
   .modal-small-button:hover .modal-button__icon,

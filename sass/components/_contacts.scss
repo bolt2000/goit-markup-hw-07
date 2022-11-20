@@ -8,10 +8,12 @@
   }
   
   .contacts__link {
-    display: block;
+    @include flexCenter(block, none);
+    // display: block;
+    // align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    align-items: center;
+  
 
     &:hover,
     &:focus {

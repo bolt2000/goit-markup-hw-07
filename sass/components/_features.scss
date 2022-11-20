@@ -20,9 +20,10 @@
   }
   
   .feature-list__svg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter();
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     height: 120px;
     width: 270px;
     margin-bottom: 30px;

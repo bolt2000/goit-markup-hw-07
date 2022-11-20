@@ -1,7 +1,9 @@
 /* ===== Header ===== */
 .nav-menu {
-    display: flex;
-    align-items: center;
+  @include flexCenter();
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
   }
   
   .header-nav {

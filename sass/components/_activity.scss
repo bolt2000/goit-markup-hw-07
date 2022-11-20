@@ -30,12 +30,13 @@
   }
 
   .activity-list__element p {
-    justify-content: center;
-    align-items: center;
+    @include flexCenter();
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     background: var(--background-position);
     width: 100%;
     height: 70px;
-    display: flex;
     position: absolute;
     bottom: 0;
     right: 0;

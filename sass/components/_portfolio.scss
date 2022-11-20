@@ -65,12 +65,13 @@
 }
 
 .set-box__position {
-  justify-content: center;
-  align-items: center;
+  @include flexCenter(block, none);
+  // display: block;
+  // justify-content: center;
+  // align-items: center;
   background: var(--background-position-portfolio);
   width: 100%;
   height: 100%;
-  display: block;
   position: absolute;
   bottom: 0;
   padding: 63px 24px;
